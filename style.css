@@ -8,7 +8,7 @@ body {
 .container {
     width: 70%;
     max-width: 1000px;
-    margon: 0 auto;
+    margn: 0 auto;
     border: 5px solid black;
     margin-left: 2rem;
     margin-top: 2rem;
@@ -76,8 +76,10 @@ body {
     font-style: italic;
 }
 
-.dotList {
-
+.dotList li {
+    margin-bottom: 10px;
+    line-height: 3.5;
+    font-weight: bold;
 
 }
 
